@@ -14,3 +14,14 @@ faqQuestions.forEach((question) => {
     }
   });
 });
+
+window.addEventListener("load", function () {
+  window.addEventListener("scroll", function () {
+      if (window.pageYOffset > 100) {
+          document.querySelector('#navbar').classList.add("navbar_scroll");
+      } else {
+          document.querySelector('#navbar').classList.remove("navbar_scroll");
+      }
+  });
+});
+

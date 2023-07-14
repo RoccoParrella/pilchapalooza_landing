@@ -6,142 +6,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="shortcut icon" href="./public/media/img/logo_pilchapalooza_big.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header class="header">
-        <nav class="navbar">
-
+        <nav class="navbar" id="navbar">
             <div class="navbar_div_logo">
                 <img class="navbar_logo" src="./public/media/img/logo_pilchapalooza_big.png" alt="Logo Pilchapalooza">
             </div>
             <div>
-                <div>
+                <div class="navbar_div_links">
                     <a href="#tickets">tickets</a>
                     <a href="#actividades">actividades</a>
                     <a href="#marcas">marcas</a>
                     <a href="#nosotros">nosotros</a>
                     <a href="#faq">faq</a>
                 </div>
-                <div>
-                    <a href="#">compra entradas</a>
+                <div class="navbar_div_tickets">
+                    <a class="navbar_buy_tickets" href="#">compra<br> entradas</a>
                 </div>
             </div>
-
-            <div class="marquee">
-                <ul class="marquee__content">
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-
-                    <!--  Repeated marquee items -->
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> - ENTRADAS A LA VENTA</li>
-                    <li class="marquee__item"> muégano</li>
-                    <li class="marquee__item"> tamaríndo</li>
-                    <li class="marquee__item"> macarrones</li>
-                </ul>
-            </div>
         </nav>
+        <div class="marquee">
+            <ul class="marquee__content">
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+                <li class="marquee__item">ENTRADAS A LA VENTA</li>
+                <li class="marquee__item">-</li>
+            </ul>
+        </div>
     </header>
 
     <main class="main">
         <div class="first_section">
-
-            <div>
-                <img src="./public/media/img/logo_pilchapalooza_big.png" alt="Logo Pilchapalooza">
-                <img src="./public/media/img/1er_edicion.png" alt="1er Edicion">
+            <div class="div_first_section_one">
+                <img class="img_main_section" src="./public/media/img/logo_pilchapalooza_big.png"
+                    alt="Logo Pilchapalooza">
+                <img class="img_main_section_two" src="./public/media/img/1er_edicion.png" alt="1er Edicion">
             </div>
-
-            <div>
-                <div>
+            <div class="div_first_section_two">
+                <div class="sub_div_first_section_two">
                     <div>
-                        <p>9 y 10 de septiembre</p>
+                        <p class="first_section_date">9 y 10 de septiembre</p>
                     </div>
                     <div id="countdown"></div>
+
+                    <a class="first_section_ticket" href="#">compra tus<br> entradas</a>
+
                 </div>
-                <div>
-                    <a href="#">compra tus entradas</a>
-                </div>
+
             </div>
-
-
-
         </div>
 
         <div class="second_section" id="nosotros">
-            <h2>vision</h2>
-            <div>
-                <p>Poder brindarle a los jóvenes una experiencia de comunidad donde puedan interactuar con marcas de
+            <h2 class="second_section_title">vision</h2>
+            <div class="div_second_section">
+                <p class="second_section_text">Poder brindarle a los jóvenes una experiencia de comunidad donde puedan
+                    interactuar con marcas de
                     indumentaria nacionales y ademas disfrutar de un dia entero de música en vivo, shows, DJ's set,
                     charlas, comida y conocer artistas
-                    de la escena</p>
-                <img src="./public/media/img/background_negro.jpg" alt="">
+                    de la escena.</p>
+                <img class="second_section_img" src="./public/media/img/background_negro.jpg" alt="">
             </div>
         </div>
 
         <div class="third_section" id="actividades">
-            <h2>actividades</h2>
-            <div class="div_cards">
-                <img src="./public/media/img/cards.png" alt="Card">
+            <h2 class="third_section_title">actividades</h2>
+            <div class="div_third_section">
+                <img class="third_section_img" src="./public/media/img/cards.png" alt="Card">
             </div>
         </div>
 
         <div class="fourth_section">
-            <h2>line up</h2>
-            <div class="div_line_up">
-                <img src="./public/media/img/line_up_1.png" alt="Line up">
-                <img src="./public/media/img/line_up_2.png" alt="Line up">
+            <h2 class="fourth_section_title">line up</h2>
+            <div class="div_fourth_section">
+                <img class="fourth_section_img" id="fourth_section_margin" src="./public/media/img/line_up_1.png"
+                    alt="Line up">
+                <img class="fourth_section_img" src="./public/media/img/line_up_2.png" alt="Line up">
             </div>
         </div>
 
         <div class="fifth_section" id="faq">
-            <h2>faqs</h2>
-            <h3>resolvemos todas tus dudas</h3>
+            <h2 class="fifth_section_title">faqs</h2>
+            <h3 class="fifth_section_sub_title">resolvemos todas tus dudas</h3>
             <div>
                 <div class="faq-container">
                     <div class="faq-item">
                         <div class="faq-question">Fecha del evento<span class="faq-icon"><img
-                                    src="./public/media/img/arrow_logo.svg" alt=""></span></div>
+                                    src="./public/media/img/arrow_logo.svg" class="fifth_section_icon" alt=""></span>
+                        </div>
                         <div class="faq-answer">EL EVENTO TENDRÁ LUGAR 9 Y 10 SEPTIEMBRE 2023</div>
                     </div>
                     <div class="faq-item">
                         <div class="faq-question">¿PUEDO COMPRAR UNA
                             ENTRADA DE REVENTA?<span class="faq-icon"><img src="./public/media/img/arrow_logo.svg"
-                                    alt=""></span></div>
+                                    class="fifth_section_icon" alt=""></span></div>
                         <div class="faq-answer">Si pa, obvio que podes dou nasheee</div>
                     </div>
                     <div class="faq-item">
                         <div class="faq-question">¿SE PUEDE ACCEDER CON COMIDA
                             Y BEBIDA DEL EXTERIOR?<span class="faq-icon"><img src="./public/media/img/arrow_logo.svg"
-                                    alt=""></span></div>
+                                    class="fifth_section_icon" alt=""></span></div>
                         <div class="faq-answer">No hay chancefait de que eso pase brou</div>
                     </div>
                     <div class="faq-item">
                         <div class="faq-question">¿EN QUÉ FORMATO LLEVO
                             MI ENTRADA?<span class="faq-icon"><img src="./public/media/img/arrow_logo.svg"
-                                    alt=""></span></div>
+                                    class="fifth_section_icon" alt=""></span></div>
                         <div class="faq-answer">UPS and before that you will receive an email with the parcel details.
-                            For return package, the address is 19655 E 35th Drive. Suite 100 Aurora, CO 80011, United
+                            For return package, the address is 19655 E 35th Drive. Suite 100% Aurora, CO 80011, United
                             States
                         </div>
                     </div>
                     <div class="faq-item">
                         <div class="faq-question">RESOLVEMOS TODAS TUS DUDAS<span class="faq-icon"><img
-                                    src="./public/media/img/arrow_logo.svg" alt=""></span></div>
+                                    src="./public/media/img/arrow_logo.svg" class="fifth_section_icon" alt=""></span>
+                        </div>
                         <div class="faq-answer">Orders can take up to 2-3 weeks to arrive once ordered. If you need your
                             order sooner for an event or as a gift, please don't hesitate to call our customer service.
                             We will do our best to make sure it arrives on time.
@@ -149,7 +169,8 @@
                     </div>
                     <div class="faq-item">
                         <div class="faq-question">RESOLVEMOS TODAS TUS DUDAS<span class="faq-icon"><img
-                                    src="./public/media/img/arrow_logo.svg" alt=""></span></div>
+                                    src="./public/media/img/arrow_logo.svg" class="fifth_section_icon" alt=""></span>
+                        </div>
                         <div class="faq-answer">You will receive an email upon the creation of the shipping label, which
                             means your order is getting ready to be shipped.
                         </div>
@@ -158,35 +179,37 @@
                 <div class="faq-container">
                     <div class="faq-item">
                         <div class="faq-question">Fecha del evento<span class="faq-icon"><img
-                                    src="./public/media/img/arrow_logo.svg" alt=""></span></div>
+                                    src="./public/media/img/arrow_logo.svg" class="fifth_section_icon" alt=""></span>
+                        </div>
                         <div class="faq-answer">EL EVENTO TENDRÁ LUGAR 9 Y 10 SEPTIEMBRE 2023</div>
                     </div>
                     <div class="faq-item">
                         <div class="faq-question">¿PUEDO COMPRAR UNA
                             ENTRADA DE REVENTA?<span class="faq-icon"><img src="./public/media/img/arrow_logo.svg"
-                                    alt=""></span></div>
+                                    class="fifth_section_icon" alt=""></span></div>
                         <div class="faq-answer">Si pa, obvio que podes anashe dou
                         </div>
                     </div>
                     <div class="faq-item">
                         <div class="faq-question">¿SE PUEDE ACCEDER CON COMIDA
                             Y BEBIDA DEL EXTERIOR?<span class="faq-icon"><img src="./public/media/img/arrow_logo.svg"
-                                    alt=""></span></div>
+                                    class="fifth_section_icon" alt=""></span></div>
                         <div class="faq-answer">Please feel free to email us at <b>contact@trumpcarecard.com </b>and our
                             team will resolve any issue.</div>
                     </div>
                     <div class="faq-item">
                         <div class="faq-question">¿EN QUÉ FORMATO LLEVO
                             MI ENTRADA?<span class="faq-icon"><img src="./public/media/img/arrow_logo.svg"
-                                    alt=""></span></div>
+                                    class="fifth_section_icon" alt=""></span></div>
                         <div class="faq-answer">UPS and before that you will receive an email with the parcel details.
-                            For return package, the address is 19655 E 35th Drive. Suite 100 Aurora, CO 80011, United
+                            For return package, the address is 19655 E 35th Drive. Suite 100% Aurora, CO 80011, United
                             States
                         </div>
                     </div>
                     <div class="faq-item">
                         <div class="faq-question">RESOLVEMOS TODAS TUS DUDAS<span class="faq-icon"><img
-                                    src="./public/media/img/arrow_logo.svg" alt=""></span></div>
+                                    src="./public/media/img/arrow_logo.svg" class="fifth_section_icon" alt=""></span>
+                        </div>
                         <div class="faq-answer">Orders can take up to 2-3 weeks to arrive once ordered. If you need your
                             order sooner for an event or as a gift, please don't hesitate to call our customer service.
                             We will do our best to make sure it arrives on time.
@@ -194,7 +217,8 @@
                     </div>
                     <div class="faq-item">
                         <div class="faq-question">RESOLVEMOS TODAS TUS DUDAS<span class="faq-icon"><img
-                                    src="./public/media/img/arrow_logo.svg" alt=""></span></div>
+                                    src="./public/media/img/arrow_logo.svg" class="fifth_section_icon" alt=""></span>
+                        </div>
                         <div class="faq-answer">You will receive an email upon the creation of the shipping label, which
                             means your order is getting ready to be shipped.
                         </div>
@@ -207,79 +231,106 @@
             <div class="slider">
                 <div class="slide-track">
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250"
-                            alt="" />
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
+                            class="sixth_section_img_slider" alt="" />
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="seventh_section" id="tickets">
-            <div>
-                <img src="./public/media/img/logo_pilchapalooza_big.png" alt="Logo Pilchapalooza">
-                <img src="./public/media/img/1er_edicion.png" alt="Logo 1er Edicion">
+            <div class="div_seventh_section">
+                <img class="seventh_section_img" src="./public/media/img/logo_pilchapalooza_big.png" alt="Logo Pilchapalooza">
+                <img class="seventh_section_img_2" src="./public/media/img/1er_edicion.png" alt="Logo 1er Edicion">
             </div>
 
-            <div>
-                <a href="#">Compra tus<br> entradas</a>
-            </div>
+            <a class="seventh_section_link" href="#">compra tus<br> entradas</a>
+
         </div>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <div class="div_footer_img">
+            <img class="footer_img_main" src="./public/media/img/logo_pilchapalooza_big.png" alt="Logo de Pilchapalooza">
+        </div>
+        <div class="div_footer">
+            <div class="sub_div_footer">
+                <p class="footer_title">navegación</p>
+                <a class="footer_links" href="#tickets">tickets</a>
+                <a class="footer_links" href="#actividades">actividades</a>
+                <a class="footer_links" href="#marcas">marcas</a>
+                <a class="footer_links" href="#nosotros">nosotros</a>
+                <a class="footer_links" href="#faq">faq</a>
+            </div>
+            <!-- <div>
+                <p class="footer_title">seguinos</p>
+            </div> -->
+            <div class="sub_div_footer_2">
+                <p class="footer_title">contacto</p>
+                <div class="mini_div_footer_2">
+                    <a href="mailto:pilchapalooza@gmail.com" class="d-flex">
+                        <img class="footer_contact_icon" src="./public/media/img/mail_logo.svg" alt="">
+                        <p class="footer_contact_text">pilchapalooza@gmail.com</p>
+                    </a>
+                    <a href="https://www.google.com/maps/dir//golden+center/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x95bcb43b95c1eb93:0xad90f72012d90499?sa=X&ved=2ahUKEwirjbmtq42AAxWArZUCHaTcBN8Q9Rd6BAhCEAA&ved=2ahUKEwirjbmtq42AAxWArZUCHaTcBN8Q9Rd6BAhMEAU" class="d-flex">
+                        <img class="footer_contact_icon" src="./public/media/img/location_logo.svg" alt="">
+                        <p class="footer_contact_text">Goldencenter, Int. Cantilo y Int. Güiraldes, CABA</p>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="./public/js/simplyCountdown.min.js"></script>
