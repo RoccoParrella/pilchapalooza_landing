@@ -8,7 +8,9 @@
     <link rel="shortcut icon" href="./public/media/img/logo_pilchapalooza_big.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    
     <title>Pilchapalooza</title>
 </head>
 
@@ -83,13 +85,13 @@
         <div class="first_section">
             <div class="div_first_section">
                 <div>
-                    <img class="img_pjs_1" src="./public/media/img/pjs_1.png" alt="">
+                    <img class="img_pjs_1"  src="./public/media/img/pjs_1.png" alt="">
                 </div>
                 <div class="div_first_section_one">
                     <img class="img_main_section" src="./public/media/img/logo_main.png" alt="Logo Pilchapalooza">
                 </div>
                 <div>
-                    <img class="img_pjs_2" src="./public/media/img/pjs_2.png" alt="">
+                    <img class="img_pjs_2"src="./public/media/img/pjs_2.png" alt="">
                 </div>
             </div>
             <div class="div_first_section_two">
@@ -104,23 +106,31 @@
 
         <div class="second_section" id="nosotros">
             <a class="a_link_tickets" href="https://venti.com.ar/evento/pilcha-palooza">compra tus<br>entradas</a>
-            <img class="pj_alone" src="./public/media/img/pj_alone.png" alt="">
+            <img class="pj_alone" src="./public/media/img/pj_alonne.png" alt="">
             <div class="div_second_section">
                 <p class="second_section_text">Poder brindarle a los jóvenes una experiencia de comunidad donde puedan
                     interactuar con marcas de
                     indumentaria nacionales y ademas disfrutar de un dia entero de música en vivo, shows, DJ's set,
                     charlas, comida y conocer artistas
                     de la escena.</p>
-                <img class="second_section_img" src="./public/media/img/background_negro.jpg" alt="">
+                <!-- <img class="second_section_img" src="./public/media/img/background_negro.jpg" alt=""> -->
             </div>
         </div>
 
         <div class="third_section" id="actividades">
             <h2 class="third_section_title">actividades</h2>
+            <img class="background_actividades" src="./public/media/img/background_actividades.png" alt="">
             <div class="div_third_section">
-                <img class="third_section_img" src="./public/media/img/cards.png" alt="Card">
+                <div class="marqueee">
+                    <ul class="marquee__contentt">
+                        <li class="marquee__itemm"><img class="img_perchas" src="./public/media/img/perchas.png" alt=""></li>
+                        <li class="marquee__itemm"><img class="img_perchas" src="./public/media/img/perchas.png" alt=""></li>
+                        <li class="marquee__itemm"><img class="img_perchas" src="./public/media/img/perchas.png" alt=""></li>
+                    </ul>
+                </div>
+                
             </div>
-            <h2 class="fourth_section_title">Line Up</h2>
+            <!-- <h2 class="fourth_section_title">Line Up</h2> -->
         </div>
 
         <div class="fourth_section_main" id="marcas">
@@ -333,6 +343,10 @@
         </div>
     </footer>
 
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./public/js/simplyCountdown.min.js"></script>
     <script src="./public/js/countdown.js"></script>
     <script src="./public/js/script.js"></script>
