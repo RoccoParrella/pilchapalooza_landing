@@ -115,7 +115,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 90vh;
+  min-height: 100vh;
 }
 
 .div_first_section_one {
@@ -345,12 +345,8 @@
     transform: translateX(0)
   }
 
-  50% {
-    transform: translateX(-400%)
-  }
-
   100% {
-    transform: translateX(00)
+    transform: translateX(-100%)
   }
 }
 
@@ -580,12 +576,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: -80px 0 20px;
+  /* margin: -80px 0 20px; */
 }
 
 .seventh_section_img {
   width: 350px;
-  margin: -40px 0 -20px;
+  /* margin: -40px 0 -20px; */
 }
 
 .seventh_section_link {
@@ -622,6 +618,7 @@
 }
 
 .footer_img_main {
+  margin: -50px 0;
   width: 150px;
 }
 
@@ -767,7 +764,7 @@
     }
   
     100% {
-      transform: translateX(-150%)
+      transform: translateX(-100%)
     }
   }
   
@@ -888,6 +885,7 @@
 
   .a_link_tickets {
     color: rgb(0, 0, 0);
+    border-radius: 33px;
     text-align: center;
     z-index: 10000;
     text-decoration: none;
@@ -1028,17 +1026,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: -80px 0 20px;
+    /* margin: -80px 0 20px; */
   }
 
   .seventh_section_img {
-    margin: -40px 0 0 0;
+    /* margin: -40px 0 0 0; */
     width: 500px;
-  }
-
-  .seventh_section_img_2 {
-    margin: -20px 0 0 40px;
-    width: 140px;
   }
 
   /* --------------------------------------- */
@@ -1065,6 +1058,7 @@
   }
 
   .footer_img_main {
+    /* margin: -200px 0 0 0; */
     width: 150px;
   }
 
@@ -1138,6 +1132,7 @@
   }
 
   .img_main_section {
+    margin-top: 80px;
     width: 100%;
     z-index: 100;
   }
@@ -1157,6 +1152,13 @@
     width: 400px;
     margin-top: 80px;
     right: 10PX;
+  }
+
+  .a_link_tickets {
+    font-size: 50px;
+    border: 10px solid #000;
+    padding: 30px 250px;
+    margin-top: -0px;
   }
 
   /* second section  */
@@ -1194,11 +1196,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: -80px 0 20px;
+    /* margin: -80px 0 20px; */
   }
 
   .seventh_section_img {
-    margin: -50px 0 -40px 0;
+    /* margin: -50px 0 -40px 0; */
     width: 550px;
   }
 
@@ -1241,12 +1243,20 @@
     /* third section */
 
     .third_section_title {
-      font-size: 4rem;
-      margin-top: 5%;
+      font-size: 7.7rem;
+      margin-top: 2.2%;
     }
     
     .background_actividades {
       width: 100%;
       margin-top: -150px;
+    }
+
+    /*  */
+
+    .seventh_section_link {
+      padding: 20px 100px;
+      font-size: 30px;
+      border-radius: 10px;
     }
 }
