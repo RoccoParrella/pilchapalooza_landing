@@ -2,7 +2,7 @@ simplyCountdown('#countdown', {
     year: 2023, 
     month: 9, 
     day: 9, 
-    hours: 10, 
+    hours: 9, 
     minutes: 0, 
     seconds: 0,
     words: {

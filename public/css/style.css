@@ -1185,14 +1185,15 @@
     position: absolute;
     width: 400px;
     left: 0px;
-    margin-top: 140px;
+    margin-top: 240px;
   }
 
   .img_pjs_2 {
     display: block;
     position: absolute;
     width: 400px;
-    margin-top: 80px;
+  margin-top: 180px;
+  /* bottom: 0; */
     right: 10PX;
   }
 
@@ -1270,7 +1271,8 @@
     display: block;
     position: absolute;
     width: 500px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    bottom: 0;
     right: 120PX;
   }
 
